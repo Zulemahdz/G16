@@ -1,0 +1,33 @@
+*{
+    background-color: rgb(209, 175, 240);
+}
+
+h1{
+    text-align: center;
+}
+
+.padre { 
+    color: rgb(62, 79, 238);
+}
+
+a:hover {
+    color: rgb(226, 36, 36);
+}
+
+a:focus {
+    color: chartreuse; 
+}
+h1:active {
+    color: blueviolet;
+}
+
+body:nth-child(2) {
+    background: rgb(205, 134, 246);
+}
+
+p:nth-child(odd) {
+    background: cyan;
+}
+p:nth-child(even) {
+    background: rgb(56, 149, 255);
+}
