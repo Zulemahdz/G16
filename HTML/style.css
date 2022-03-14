@@ -31,3 +31,7 @@ p:nth-child(odd) {
 p:nth-child(even) {
     background: rgb(56, 149, 255);
 }
+
+img{
+    width: 20%;
+}
