@@ -32,6 +32,6 @@ p:nth-child(even) {
     background: rgb(56, 149, 255);
 }
 
-img{
+.img-gato{
     width: 20%;
 }
