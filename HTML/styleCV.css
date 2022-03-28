@@ -14,33 +14,27 @@ body {
     align-items: center;
     width: 100%;
     height: 100vh;
+    padding: 0.5rem;
     }
 
     .pag1-name {
-        display: inline;
-        flex-wrap: wrap;
-        justify-content: right;
-        align-items: center;
-        width: 50%;
-        height: 50vh;
+        flex: 1 300px;
+        margin: 0.5rem;
+        padding: 2rem;
+        font-size: 2rem;
+        color: rgb(1, 6, 10);
         background-color: rgba(203, 160, 243, 0.486) ;
-        border-image-width: 10%;
     }
 
     .pag1-datos {
-        display: inline;
-        flex-wrap: wrap;
-        align-items: center;
-        width: 50%;
-        height: 50vh;
+        flex: 1 300px;
+        margin: 0.5rem;
+        padding: 2rem;
+        font-size: 2rem;
+        color: rgb(1, 6, 10);
         background-color: rgba(203, 160, 243, 0.486) ;
     }
 
-    .pag1-img {
-        display: inline;
-        height: 1cm;
-        width: 2cm;
-    }
 .page2 {
         border-style: dotted;
         background-color: #cf6596;
