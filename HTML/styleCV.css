@@ -21,7 +21,7 @@ body {
         flex: 1 300px;
         margin: 0.5rem;
         padding: 2rem;
-        font-size: 2rem;
+        font-size: larger;
         color: rgb(1, 6, 10);
         background-color: rgba(203, 160, 243, 0.486) ;
     }
@@ -42,6 +42,21 @@ body {
     }
 
     .pag2-edu {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 50%;
+        height: 50vh;
+        background-color: rgba(203, 160, 243, 0.486; 
+    }
+   
+.page3 {
+        border-style: dotted;
+        background-color: #65cfb5;
+        width: 100%;
+    }
+
+    .pag3-exp {
         display: inline;
         flex-wrap: wrap;
         align-items: center;
@@ -49,4 +64,3 @@ body {
         height: 50vh;
         background-color: rgba(203, 160, 243, 0.486) ;
     }
- 
