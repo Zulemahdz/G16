@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.body{
+    background-image: url(/HTML/periodictable.jpg);
+}
+
+header{
+    border-style: dotted;
+    background-color: rgba(137, 43, 226, 0.52);
+}
+header h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-style: dotted;
+    margin: 20px;
+    align-items: center;
+}
+footer{
+    background-color: rgba(166, 156, 226, 0.555);
+    height: 10vh;
+    width: 100%;
+}
+
+.perfil{
+    background-color: rgba(0, 255, 255, 0.157);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.titulo-perfil{
+    text-align: center;
+    border-style: dashed;
+    width: 100%;
+}
+
+.img-perfil{
+    text-align: center;
+    border-style: dashed;
+    width: 100%;
+
+}
+
+.carrusel{
+    display: flex;
+    padding-left: 20%;
+    width: 80%;
+    height:80% ;
+}
+
+.img-carr{
+    width: 100%;
+}
+
+.experiencia{
+    background-color: rgba(135, 202, 222, 0.568);
+    display: flex;
+    flex-direction: center;
+    text-align: center;
+}
+
+
+.item-exp{
+    border-style: dotted;
+    width: 30%;
+    margin: 10px 20px 50px 15px;
+}
+
+.item-exp img{
+    width: 50%;
+}
+
+.tabla{
+    display: block;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+    font size: 30px;
+}
+
+td, th, tr {
+    border: black 5px dotted;
+}
